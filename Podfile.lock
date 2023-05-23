@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - MJRefresh (3.7.5)
+
+DEPENDENCIES:
+  - Flutter (from `zhiyin_flutter/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `zhiyin_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - MJRefresh
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: zhiyin_flutter/.ios/Flutter
+  FlutterPluginRegistrant:
+    :path: zhiyin_flutter/.ios/Flutter/FlutterPluginRegistrant
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  FlutterPluginRegistrant: 58acfb6cb31ee4ca14f920aba101815efda113ee
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+
+PODFILE CHECKSUM: fe09125c2321b384e45876eeb7460cffe5598550
+
+COCOAPODS: 1.11.3

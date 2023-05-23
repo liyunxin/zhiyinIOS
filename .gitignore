@@ -1,0 +1,16 @@
+# OSX
+#
+.DS_Store
+build/
+.idea
+.gradle
+
+
+# Visual Studio Code
+#
+.vscode/
+
+Pods
+app.xcworkspace/xcuserdata
+black_list_config.pyc
+__pycache__
