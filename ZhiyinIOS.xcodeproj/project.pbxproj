@@ -13,6 +13,8 @@
 		1D034AFD2A1BBB3F005B3D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D034AFB2A1BBB3F005B3D03 /* Main.storyboard */; };
 		1D034AFF2A1BBB40005B3D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D034AFE2A1BBB40005B3D03 /* Assets.xcassets */; };
 		1D034B022A1BBB40005B3D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D034B002A1BBB40005B3D03 /* LaunchScreen.storyboard */; };
+		1D40A7972A1C8D830058E81A /* DYFlutterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40A7962A1C8D830058E81A /* DYFlutterModule.swift */; };
+		1D40A7992A1C8F0B0058E81A /* QWFlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40A7982A1C8F0B0058E81A /* QWFlutterViewController.swift */; };
 		226F74FE2A515D89DAE27478 /* Pods_ZhiyinIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC5D93A2323D37439E01A0 /* Pods_ZhiyinIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		1D034AFE2A1BBB40005B3D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D034B012A1BBB40005B3D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D034B032A1BBB40005B3D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D40A7962A1C8D830058E81A /* DYFlutterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYFlutterModule.swift; sourceTree = "<group>"; };
+		1D40A7982A1C8F0B0058E81A /* QWFlutterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWFlutterViewController.swift; sourceTree = "<group>"; };
 		63CC5D93A2323D37439E01A0 /* Pods_ZhiyinIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhiyinIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,7 @@
 		1D034AF42A1BBB3F005B3D03 /* ZhiyinIOS */ = {
 			isa = PBXGroup;
 			children = (
+				1D40A7952A1C8D7E0058E81A /* FlutterModule */,
 				1D034AF52A1BBB3F005B3D03 /* AppDelegate.swift */,
 				1D034AF72A1BBB3F005B3D03 /* SceneDelegate.swift */,
 				1D034AF92A1BBB3F005B3D03 /* ViewController.swift */,
@@ -74,13 +79,21 @@
 			path = ZhiyinIOS;
 			sourceTree = "<group>";
 		};
+		1D40A7952A1C8D7E0058E81A /* FlutterModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D40A7962A1C8D830058E81A /* DYFlutterModule.swift */,
+				1D40A7982A1C8F0B0058E81A /* QWFlutterViewController.swift */,
+			);
+			path = FlutterModule;
+			sourceTree = "<group>";
+		};
 		7C420BE1B83EF3E779885C98 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1423B856F54080A18CA45082 /* Pods-ZhiyinIOS.debug.xcconfig */,
 				0186827AA2ADC3265B544F09 /* Pods-ZhiyinIOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -230,7 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D034AFA2A1BBB3F005B3D03 /* ViewController.swift in Sources */,
+				1D40A7992A1C8F0B0058E81A /* QWFlutterViewController.swift in Sources */,
 				1D034AF62A1BBB3F005B3D03 /* AppDelegate.swift in Sources */,
+				1D40A7972A1C8D830058E81A /* DYFlutterModule.swift in Sources */,
 				1D034AF82A1BBB3F005B3D03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
